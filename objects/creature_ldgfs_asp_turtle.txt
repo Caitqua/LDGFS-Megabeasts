@@ -1,0 +1,6 @@
+creature_ldgfs_asp_turtle
+
+[OBJECT:CREATURE]
+
+[CREATURE:ASP_TURTLE]
+	[DOES_NOT_EXIST]

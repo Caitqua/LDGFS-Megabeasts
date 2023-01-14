@@ -1,0 +1,13 @@
+interaction_ldgfs_megabeasts
+
+[OBJECT:INTERACTION]
+
+This interaction is for the aboleths.
+
+[INTERACTION:ENSLAVE_CREATURE]
+    [I_SOURCE:SECRET]
+    [I_TARGET:A:CREATURE]
+        [IT_FORBIDDEN:OPPOSED_TO_LIFE]
+    [I_EFFECT:ADD_SYNDROME]
+        [SYNDROME]
+            [CE_ADD_TAG:OPPOSED_TO_LIFE:START:0:END:600]
